@@ -29,26 +29,26 @@ To validate this hypothesis, I analyzed a dataset from [Our World in Data](https
    - Calculated a one-sided upper confidence interval to test if the divorce rate exceeds 40%.
    - Formula: 
      \[
-     \hat{U} = \hat{p} + z_a \sqrt{\frac{\hat{p}(1 - \hat{p})}{n}}
+     ![Confidence Interval Formula](Confidence_interval_formula.png)
      \]
    - Inputs:
-     - \(\hat{p} = \frac{11}{25} = 0.44\)
+     ![P value calculation](p_calc.png)
      - \(z_a = 1.645\) (for 95% confidence level)
    - Result:
      \[
-     \hat{U} = 0.44 + 1.645 \sqrt{\frac{0.44(1 - 0.44)}{25}} = 0.6033
+     ![P value calculation](confidence_result.png)
      \]
 
 4. **Hypothesis Test**:
    - Test statistic formula:
      \[
-     Z_0 = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1 - p_0)}{n}}}
+     ![Test Statistic calculation](test_formula.png)
      \]
    - Inputs:
-     - \(\hat{p} = 0.44\), \(p_0 = 0.4\), \(n = 25\)
+     ![P value calculation](p_calc.png), \(n = 25\)
    - Result:
      \[
-     Z_0 = \frac{0.44 - 0.4}{\sqrt{\frac{0.4(1 - 0.4)}{25}}} = 0.4084
+     ![Test Statistic result](test_result.png)
      \]
 
 ---
