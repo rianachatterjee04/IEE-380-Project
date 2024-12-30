@@ -64,18 +64,8 @@ The data suggests that the divorce rate does not exceed 40% for most countries i
 
 ---
 
-## Files
-- **Dataset**: [Excel file with filtered data](https://docs.google.com/spreadsheets/d/1l-4iN82C6U6occW0CI0Mv32FFb5HgBHtj2QDEWGtbnA/edit)
-- **Source**: [Our World in Data - Marriages and Divorces](https://ourworldindata.org/marriages-and-divorces)
-
----
-
 ## Future Work
 - Revisit the hypothesis with recent data from 2024 to explore how societal changes may have impacted divorce rates globally.
 - Expand the analysis to include other related factors like marriage rates, cultural influences, and legal systems.
 
 ---
-
-## License
-This project is for educational purposes and uses publicly available data from [Our World in Data](https://ourworldindata.org).
-
